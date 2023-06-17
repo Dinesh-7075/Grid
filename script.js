@@ -1,4 +1,4 @@
-const grid = document.body.querySelector(".grid");
+const grid = document.getElementsByClassName("grid")[0];
 
 for(let i=0; i<680; i++){
     const square = document.createElement("div");
